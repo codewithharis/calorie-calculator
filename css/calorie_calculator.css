@@ -1,0 +1,72 @@
+.calorie_calculator_single_result.green .bmr_val {
+	color: rgb(0, 128, 0);
+}
+
+p.calorie_calculator_single_result {
+    margin-bottom: 0;
+    font-size: 0.9em;
+    padding: 0.4em;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+div#calorie_calculator_tabs input {
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+#calorie_calculator_metric_show_errors .calorie_calculator_show_errors, #calorie_calculator_us_show_errors .calorie_calculator_show_errors{
+	color: red;
+	text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+
+#calorie_calculator_tabs .ui-tabs-panel {
+    padding: 0.4em;
+}
+#calorie_calculator_result p.calorie_calculator_single_result {
+    margin-bottom: 0;
+}
+
+p.calorie_calculator_single_result:last-child {
+    border-bottom: none;
+}
+
+#calorie_calculator_tabs input[type="submit"] {
+    margin-top: 1em;
+    width: 100%;
+}
+
+.height_feet_inch {
+    display: flex;
+}
+
+.height_feet_inch input.calorie_calculator_height_feet {
+    margin-right: 1%;
+    width: 49%;
+}
+
+.height_feet_inch input#calorie_calculator_height_inch {
+    margin-left: 1%;
+    width: 49%;
+}
+
+select#calorie_calculator_activity {
+    border-radius: 2px;
+    max-width: 100%;
+}
+
+div#calorie_calculator_tabs div label {
+    display: block;
+}
+
+input#calorie_calculator_age, input.calorie_calculator_height, input#calorie_calculator_weight {
+    width: 100%;
+    min-height: 32px;
+}
+
+input.calorie_calculator_height_feet, input#calorie_calculator_height_inch, #calorie_calculator_tabs input[type="submit"], select#calorie_calculator_activity {
+	min-height: 32px;
+} 
