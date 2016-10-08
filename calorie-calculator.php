@@ -205,7 +205,7 @@ function my_scripts_method() {
   // 	wp_enqueue_script('jquery-ui-tabs');
   // }
 
-  wp_register_style('calorie-calculator-jquery-ui-css', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/themes/base/jquery-ui.css');
+  wp_register_style('calorie-calculator-jquery-ui-css', plugins_url( 'css/jquery-ui.css', __FILE__ ));
 
   wp_enqueue_style( 'calorie-calculator-stylesheet', plugins_url( 'css/calorie_calculator.css', __FILE__ ), array('calorie-calculator-jquery-ui-css') );
   wp_enqueue_script( 'calorie-calculator-javascript', plugins_url( 'js/calorie_calculator.js', __FILE__ ), array('jquery', 'jquery-ui-tabs') );
